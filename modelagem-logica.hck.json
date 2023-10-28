@@ -12,7 +12,7 @@
                     "exclusiveMinimum": false,
                     "exclusiveMaximum": false,
                     "primaryKey": false,
-                    "mode": "integer",
+                    "mode": "varint",
                     "childType": "numeric",
                     "type": "numeric",
                     "compositeKey": [
@@ -30,7 +30,7 @@
                     "hackoladeMeta": {},
                     "isActivated": true,
                     "primaryKey": false,
-                    "mode": "text",
+                    "mode": "ascii",
                     "subtype": "string",
                     "childType": "char",
                     "type": "string",
@@ -72,7 +72,7 @@
                     "exclusiveMinimum": false,
                     "exclusiveMaximum": false,
                     "primaryKey": true,
-                    "mode": "integer",
+                    "mode": "varint",
                     "childType": "numeric",
                     "type": "numeric",
                     "compositeKey": [
@@ -92,7 +92,7 @@
                     "exclusiveMinimum": false,
                     "exclusiveMaximum": false,
                     "primaryKey": true,
-                    "mode": "integer",
+                    "mode": "varint",
                     "childType": "numeric",
                     "type": "numeric",
                     "compositeKey": [
@@ -137,7 +137,7 @@
                 },
                 {
                     "keyId": "17941dd7-8770-4b5b-8525-eb0b5ef1a809",
-                    "type": "ascending"
+                    "type": "descending"
                 }
             ],
             "autoHeight": true,
@@ -157,7 +157,7 @@
                     "exclusiveMinimum": false,
                     "exclusiveMaximum": false,
                     "primaryKey": true,
-                    "mode": "integer",
+                    "mode": "varint",
                     "childType": "numeric",
                     "type": "numeric",
                     "compositeKey": [
@@ -178,7 +178,7 @@
                     "hackoladeMeta": {},
                     "isActivated": true,
                     "primaryKey": false,
-                    "mode": "text",
+                    "mode": "ascii",
                     "subtype": "string",
                     "childType": "char",
                     "type": "string",
@@ -252,7 +252,7 @@
                     "hackoladeMeta": {},
                     "isActivated": true,
                     "primaryKey": false,
-                    "mode": "text",
+                    "mode": "ascii",
                     "subtype": "string",
                     "childType": "char",
                     "type": "string",
@@ -311,7 +311,7 @@
                     "exclusiveMinimum": false,
                     "exclusiveMaximum": false,
                     "primaryKey": false,
-                    "mode": "integer",
+                    "mode": "varint",
                     "childType": "numeric",
                     "type": "numeric",
                     "compositeKey": [
@@ -348,7 +348,7 @@
                     "hackoladeMeta": {},
                     "isActivated": true,
                     "primaryKey": false,
-                    "mode": "text",
+                    "mode": "ascii",
                     "subtype": "string",
                     "childType": "char",
                     "type": "string",
@@ -367,7 +367,7 @@
                     "hackoladeMeta": {},
                     "isActivated": true,
                     "primaryKey": false,
-                    "mode": "text",
+                    "mode": "ascii",
                     "subtype": "string",
                     "childType": "char",
                     "type": "string",
@@ -412,7 +412,7 @@
                     "exclusiveMinimum": false,
                     "exclusiveMaximum": false,
                     "primaryKey": false,
-                    "mode": "integer",
+                    "mode": "varint",
                     "childType": "numeric",
                     "type": "numeric",
                     "compositeKey": [
@@ -432,7 +432,7 @@
                     "exclusiveMinimum": false,
                     "exclusiveMaximum": false,
                     "primaryKey": true,
-                    "mode": "integer",
+                    "mode": "varint",
                     "childType": "numeric",
                     "type": "numeric",
                     "compositeKey": [
@@ -453,7 +453,7 @@
                     "exclusiveMinimum": false,
                     "exclusiveMaximum": false,
                     "primaryKey": true,
-                    "mode": "integer",
+                    "mode": "varint",
                     "childType": "numeric",
                     "type": "numeric",
                     "compositeKey": [
@@ -502,7 +502,7 @@
                     "exclusiveMinimum": false,
                     "exclusiveMaximum": false,
                     "primaryKey": false,
-                    "mode": "integer",
+                    "mode": "varint",
                     "childType": "numeric",
                     "type": "numeric",
                     "compositeKey": [
@@ -520,7 +520,7 @@
                     "hackoladeMeta": {},
                     "isActivated": true,
                     "primaryKey": false,
-                    "mode": "text",
+                    "mode": "ascii",
                     "subtype": "string",
                     "childType": "char",
                     "type": "string",
@@ -541,7 +541,7 @@
                     "exclusiveMinimum": false,
                     "exclusiveMaximum": false,
                     "primaryKey": true,
-                    "mode": "integer",
+                    "mode": "varint",
                     "childType": "numeric",
                     "type": "numeric",
                     "compositeKey": [
@@ -596,7 +596,7 @@
                     "exclusiveMinimum": false,
                     "exclusiveMaximum": false,
                     "primaryKey": false,
-                    "mode": "integer",
+                    "mode": "varint",
                     "childType": "numeric",
                     "type": "numeric",
                     "compositeKey": [
@@ -713,19 +713,19 @@
                 "dataType": "",
                 "shape": [
                     {
-                        "x": 945.1666666666669,
+                        "x": 941.6666666666669,
                         "y": 1040.0000203450518
                     },
                     {
-                        "x": 945.1666666666669,
+                        "x": 941.6666666666669,
                         "y": 1088.8333536783846
                     },
                     {
-                        "x": 937.3333333333336,
+                        "x": 933.8333333333336,
                         "y": 1088.8333536783846
                     },
                     {
-                        "x": 937.3333333333336,
+                        "x": 933.8333333333336,
                         "y": 1137.6666870117174
                     }
                 ],
@@ -760,11 +760,11 @@
                 "dataType": "",
                 "shape": [
                     {
-                        "x": 1384.611124674479,
+                        "x": 1381.111124674479,
                         "y": 1155.1110839843743
                     },
                     {
-                        "x": 1384.611124674479,
+                        "x": 1381.111124674479,
                         "y": 1105.544417317708
                     },
                     {
@@ -844,7 +844,7 @@
     "creationTS": "2023-10-26T03:18:44.246Z",
     "GUID": "732f890c-d944-4cd0-b57d-1c627b207094",
     "isLineageEnabled": false,
-    "lastModifTS": "2023-10-28T16:28:23.987Z",
+    "lastModifTS": "2023-10-28T16:52:02.146Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
@@ -864,7 +864,7 @@
                         "GUID": "68afe8ac-94c6-4896-afe9-a3a97cfd2306",
                         "x": 795.6666666666669,
                         "y": 917.0000203450517,
-                        "width": 299,
+                        "width": 292,
                         "height": 123,
                         "color": {}
                     },
@@ -872,7 +872,7 @@
                         "GUID": "8f4b5163-b68b-45e0-92db-b2a0fdf25f0a",
                         "x": 791.3333333333336,
                         "y": 1137.6666870117174,
-                        "width": 292,
+                        "width": 285,
                         "height": 249,
                         "color": {}
                     },
@@ -888,7 +888,7 @@
                         "GUID": "027536cf-fdc6-48a2-9e71-ae90e9a9ded9",
                         "x": 1247.111124674479,
                         "y": 1155.1110839843743,
-                        "width": 275,
+                        "width": 268,
                         "height": 141,
                         "color": {}
                     }
