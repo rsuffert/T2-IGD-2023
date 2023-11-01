@@ -10,8 +10,8 @@ CREATE TABLE airplanes (
     airline_id      varint,
     capacity        varint,
     airplane_id     varint,
-    PRIMARY KEY (airline_id, capacity)
-) WITH CLUSTERING ORDER BY (capacity DESC);
+    PRIMARY KEY (airline_id, airplane_id)
+) WITH CLUSTERING ORDER BY (airplane_id ASC);
 
 CREATE TABLE flights (
     airplane_id     varint,
@@ -20,5 +20,5 @@ CREATE TABLE flights (
     flightno        ascii,
     arrival         timestamp,
     airline_id      varint,
-    PRIMARY KEY (airplane_id, departure)
-) WITH CLUSTERING ORDER BY (departure DESC);
+    PRIMARY KEY (airplane_id, flight_id)
+) WITH CLUSTERING ORDER BY (flight_id ASC);
