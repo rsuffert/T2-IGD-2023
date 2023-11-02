@@ -12,8 +12,8 @@ CREATE TABLE bookings (
     price           float,
     booking_id      varint,
     seat            ascii,
-    PRIMARY KEY (flight_id, booking_id)
-) WITH CLUSTERING ORDER BY (booking_id ASC);
+    PRIMARY KEY (flight_id, price, booking_id)
+) WITH CLUSTERING ORDER BY (price DESC, booking_id ASC);
 
 CREATE TABLE passengers (
     passenger_id    varint,

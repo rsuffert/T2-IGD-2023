@@ -11,7 +11,7 @@
                     "isActivated": true,
                     "exclusiveMinimum": false,
                     "exclusiveMaximum": false,
-                    "primaryKey": false,
+                    "primaryKey": true,
                     "mode": "float",
                     "childType": "numeric",
                     "type": "numeric",
@@ -20,7 +20,7 @@
                         "compositeClusteringKey"
                     ],
                     "compositePartitionKey": false,
-                    "compositeClusteringKey": false,
+                    "compositeClusteringKey": true,
                     "GUID": "17941dd7-8770-4b5b-8525-eb0b5ef1a809",
                     "required": true,
                     "minimum": 0,
@@ -131,6 +131,10 @@
                 }
             ],
             "compositeClusteringKey": [
+                {
+                    "keyId": "17941dd7-8770-4b5b-8525-eb0b5ef1a809",
+                    "type": "descending"
+                },
                 {
                     "keyId": "638bd545-db1a-40be-ba9f-748bc7c32f87",
                     "type": "ascending"
@@ -427,7 +431,7 @@
                     "isActivated": true,
                     "exclusiveMinimum": false,
                     "exclusiveMaximum": false,
-                    "primaryKey": false,
+                    "primaryKey": true,
                     "mode": "varint",
                     "childType": "numeric",
                     "type": "numeric",
@@ -436,7 +440,7 @@
                         "compositeClusteringKey"
                     ],
                     "compositePartitionKey": false,
-                    "compositeClusteringKey": false,
+                    "compositeClusteringKey": true,
                     "GUID": "ab761ea7-67a0-45bc-9f03-7d611f3a8773",
                     "required": true,
                     "minimum": 1,
@@ -481,6 +485,10 @@
                 }
             ],
             "compositeClusteringKey": [
+                {
+                    "keyId": "ab761ea7-67a0-45bc-9f03-7d611f3a8773",
+                    "type": "descending"
+                },
                 {
                     "keyId": "ddd79133-3878-487f-ac85-950eb9021a25",
                     "type": "ascending"
@@ -560,7 +568,7 @@
                     "name": "departure",
                     "hackoladeMeta": {},
                     "isActivated": true,
-                    "primaryKey": false,
+                    "primaryKey": true,
                     "childType": "timestamp",
                     "type": "string",
                     "compositeKey": [
@@ -568,7 +576,7 @@
                         "compositeClusteringKey"
                     ],
                     "compositePartitionKey": false,
-                    "compositeClusteringKey": false,
+                    "compositeClusteringKey": true,
                     "GUID": "09c65999-addc-4fe8-a8ad-534cf93c7137",
                     "required": true,
                     "error": {}
@@ -630,9 +638,18 @@
             ],
             "compositeClusteringKey": [
                 {
+                    "keyId": "09c65999-addc-4fe8-a8ad-534cf93c7137",
+                    "type": "descending"
+                },
+                {
                     "keyId": "c1d4e9ed-48f1-437d-b200-491ddaf2097a",
                     "type": "ascending"
                 }
+            ],
+            "autoHeight": true,
+            "autoWidth": true,
+            "fontStyle": [
+                "bold"
             ]
         }
     ],
@@ -845,7 +862,7 @@
     "creationTS": "2023-10-26T03:18:44.246Z",
     "GUID": "732f890c-d944-4cd0-b57d-1c627b207094",
     "isLineageEnabled": false,
-    "lastModifTS": "2023-11-01T03:52:23.647Z",
+    "lastModifTS": "2023-11-02T03:36:57.217Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {

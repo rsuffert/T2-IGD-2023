@@ -1,7 +1,7 @@
 USE bookings_passengers;
 
 -- Q1
-SELECT * FROM bookings WHERE flight_id = 1;
+SELECT * FROM bookings WHERE flight_id = 1 ORDER BY price DESC;
 -- Result:
 -- [flight_id, passenger_id, price, booking_id, seat]
 --      1,          1,       251.0,     1,      'A1'
